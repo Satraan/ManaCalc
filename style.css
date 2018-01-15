@@ -1,0 +1,42 @@
+html, body, .content {
+	height: 100%;
+	margin:0px;
+}
+
+button.circular {
+	width: 100px;
+	height: 100px;
+
+}
+
+div.fourteen.wide.column {
+	margin-top: 50px;
+}
+
+div.five.column.grid {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.two.wide.column.side-menu {
+	border-right:solid 2px;
+	height: 100%;
+	text-align: center;
+	padding-right: 0px;
+	padding-top: 25px;
+}
+
+button.ui.teal.button {
+	
+}
+
+button img {
+	width: 40px;
+}
+
+
+.ui.grid {
+	 
+	text-align: center;
+}
+
