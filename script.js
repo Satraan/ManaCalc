@@ -66,7 +66,7 @@ $(function(){
 	  	updateTurns(this.value, color); 
 	});
 
-
+	
 
 
 

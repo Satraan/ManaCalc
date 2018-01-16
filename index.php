@@ -14,7 +14,7 @@
 <body>
 <div class="ui grid content">
 
-	<div class="two wide column side-menu">
+	<div class="three wide column side-menu">
 		<h1></h1>
 		<div class="three ui vertical buttons segment-format">	 
 			  	<button class="ui massive teal button">40 Cards</button>
@@ -26,15 +26,21 @@
 
 
 		
-			<table class="ui table">
+			<table class="ui table mana-table">
 				<tbody>
 					<tr>
 						<td>
-							<select data-color="white" class="ui fluid selection dropdown js-select-symbols">
+						
+							<div class="ui fluid icon buttons mana-icon">
+							  <button class="ui yellow basic button"><img class="img-small" src="w.png"></button>
+							  <button class="ui yellow basic button"><img class="img-small" src="w.png"></button>
+							  <button class="ui yellow basic button"><img class="img-small" src="w.png"></button>
+							</div>
+							<!-- <select data-color="white" class="ui fluid selection dropdown js-select-symbols">
 								<option value="1">W</option>
 						  		<option value="2">WW</option>
 						 		<option value="3">WWW</option>
-							</select>
+							</select> -->
 						</td>
 						<td>
 							<select data-color="white" class="ui fluid selection dropdown js-select-turn">
@@ -49,11 +55,11 @@
 					</tr>
 					<tr>
 						<td>
-							<select data-color="blue" class="ui fluid selection dropdown js-select-symbols">
-								<option value="1">U</option>
-						  		<option value="2">UU</option>
-						 		<option value="3">UUU</option>
-							</select>
+							<div class="ui fluid icon buttons mana-icon">
+							  <button class="ui active blue basic button"><img class="img-small" src="u.png"></button>
+							  <button class="ui blue basic button"><img class="img-small" src="u.png"></button>
+							  <button class="ui blue basic button"><img class="img-small" src="u.png"></button>
+							</div>
 						</td>
 						<td>
 							<select data-color="blue" class="ui fluid selection dropdown js-select-turn">
@@ -76,7 +82,7 @@
 
 
 
-  <div class="fourteen wide column">
+  <div class="thirteen wide column">
   	<h1>You need...</h1>
 	 	
 	 	<div class="ui five column grid">

@@ -9,7 +9,27 @@ button.circular {
 
 }
 
-div.fourteen.wide.column {
+.ui.icon.buttons.mana-icon .button{
+	padding: 0.2em;
+
+	background-color: white;
+}
+
+.ui.table.mana-table td{
+	
+	padding: 0.25em;
+}
+
+button:hover {
+	opacity: 0.5;
+}
+
+button:active {
+	opacity: 0.7;
+}
+
+
+div.thirteen.wide.column {
 	margin-top: 50px;
 }
 
@@ -18,15 +38,16 @@ div.five.column.grid {
 	margin-bottom: 50px;
 }
 
-.two.wide.column.side-menu {
+.three.wide.column.side-menu {
 	border-right:solid 2px;
 	height: 100%;
-	text-align: center;
+	
 	padding-right: 0px;
 	padding-top: 25px;
 }
 
-button.ui.teal.button {
+.img-small{
+	max-width: 50px;
 	
 }
 
